@@ -1,7 +1,88 @@
-/* Reset Stles */
-*{
+/* Reset Styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
+a {
+    text-decoration: underline dotted;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover,
+footer i:hover {
+    color: #49bf9d;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* aside styles */
+aside,
+footer {
+    padding: 4.5em 1.5em;
+    background-size: auto cover;
+    background-repeat: repeat no-repeat;
+    background-position: top left, center center;
+    background: url('../images/overlay.jpg'), url('../images/bg.jpg');
+}
+
+/* header styles */
+header .avatar {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 1em;
+}
+
+header h2 {
+    text-align: center;
+    color: #ffffff80;
+    font-weight: normal;
+}
+
+header h2 span {
+    color: white;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* footer Styles */
+aside footer {
+    display: none;
+}
+
+footer {
+    color: #ffffff66;
+    padding: 2.25em 1.5em;
+    background-position: top left, bottom center;
+}
+
+footer div {
+    text-align: center;
+    margin: 0 auto 1em;
+
+}
+
+footer div i {
+    font-size: 1.25em;
+    cursor: pointer;
+    color: #ffffff66;
+    text-decoration: none;
+}
+
+footer div span {
+    display: block;
+    line-height: 2.25em;
+}
